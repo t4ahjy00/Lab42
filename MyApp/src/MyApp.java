@@ -1,8 +1,6 @@
 public class MyApp {
 
-    /**
-     * @param args the command line arguments
-     */
+    // Author: Jyrki
     public static void main(String[] args) {
        Product product = new Product("Edam", 3.3, 120);
        System.out.println("Product value is " + product.countValue());
